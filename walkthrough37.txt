@@ -146,6 +146,7 @@ substep 3.4 - Configuring sudo
 ************************************************************
 * Defaults      passwd_tries=3                             *
 * Defaults      badpass_message="Incorrect password"       * <- you can set your
+* Defaults      logfile="/var/log/sudo/sudo.log"           *
 * Defaults      log_input,log_output                       *    own message here
 * Defaults      iolog_dir="/var/log/sudo"                  *
 * Defaults      requiretty                                 *
